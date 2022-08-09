@@ -7,7 +7,7 @@ public abstract class Ability {
 	String name;
 	double baseDamage;
 	Types type;
-	
+
 	public Ability(int charges, String name, double baseDamage, Types type) {
 		super();
 		this.charges = charges;
@@ -15,6 +15,6 @@ public abstract class Ability {
 		this.baseDamage = baseDamage;
 		this.type = type;
 	}
-	
+
 	public abstract void baseDamageAmplifier(int level);
 }

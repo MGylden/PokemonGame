@@ -10,4 +10,17 @@ public abstract class Pokemon {
 	Ability AbilityTwo;
 	Ability AbilityThree;
 	Ability AbilityFour;
+	
+	public Pokemon(String name, Stats stats, Ability abilityOne, Ability abilityTwo,
+			Ability abilityThree, Ability abilityFour) {
+		super();
+		Name = name;
+		Stats = stats;
+		AbilityOne = abilityOne;
+		AbilityTwo = abilityTwo;
+		AbilityThree = abilityThree;
+		AbilityFour = abilityFour;
+	}
+	
+	
 }
